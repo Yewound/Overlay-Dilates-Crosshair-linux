@@ -1,0 +1,14 @@
+#!/bin/sh
+HERE="$(dirname "$(readlink -f "$0")")"
+
+export PYTHONHOME="$HERE/usr"
+export LD_LIBRARY_PATH="$HERE/usr/lib:$HERE/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH"
+
+PY_VER=$(ls "$HERE/usr/lib/" | grep -E '^python3\.' | head -n 1)
+
+export PYTHONPATH="$HERE/usr/lib/$PY_VER/site-packages:$HERE/usr/lib/$PY_VER"
+
+# Устанавливаем точный путь к плагинам
+export QT_PLUGIN_PATH="$HERE/usr/lib/$PY_VER/site-packages/PyQt5/Qt5/plugins"
+
+exec python3 "$HERE/usr/bin/app.py" "$@"

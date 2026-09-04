@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=Utility;Game;
+Comment[ru_RU]=
+Comment=
+Exec=app.py
+GenericName[ru_RU]=
+GenericName=
+Icon=crosshair
+MimeType=
+Name[ru_RU]=Crosshair Overlay
+Name=Crosshair Overlay
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

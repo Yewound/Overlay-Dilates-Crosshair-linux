@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Dilates Crosshair
+Exec=AppRun
+Icon=crosshair
+Categories=Utility;Game;
+Comment=Custom Crosshair Overlay
+Terminal=false
