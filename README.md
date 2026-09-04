@@ -9,7 +9,7 @@ You can easily clone this repository and install the application shortcut to you
 Open your terminal and run the following commands:
 
 ```bash
-git clone https://github.com
+git clone https://github.com/Yewound/Overlay-Dilates-Crosshair-linux
 cd Overlay-Dilates-Crosshair-linux
 chmod +x install.sh
 ./install.sh
